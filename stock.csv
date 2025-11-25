@@ -1,0 +1,6 @@
+Book_ID,Title,Autor,Category,Price,Amount in stock
+123,Don Quijote de la Mancha,Miguel de Cervantes,Classic,200,5
+234,Cien años de soledad,Gabriel García Márquez,Classic,120,3
+345,Orgullo y prejuicio, Jane Austen, Romance,180,1
+456,El Señor de los Anillos,J.R.R. Tolkien, Fiction,210,6
+567,Harry Potter y la piedra filosofal (la saga completa),J.K. Rowling,Fiction,800,3

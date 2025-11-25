@@ -1,63 +1,49 @@
-# Sistema-Integral-de-Gesti-n-de-Inventario-y-Ventas-con-Reportes-Din-micos
-Prueba de Desempeño – Módulo 1 Python
-Prueba de Desempeño – Módulo 1 Python
-Título:
-Sistema Integral de Gestión de Inventario y Ventas con Reportes Dinámicos
-Caso de uso (Épica):
-Como encargado del área digital de una librería nacional, necesitas un sistema robusto que no
-solo permita registrar ventas y productos, sino también generar reportes detallados, aplicar
-descuentos por cliente, agrupar estadísticas por autor y evaluar el rendimiento del inventario
-con base en ventas.
-Requisitos Funcionales
-1. Gestión del inventario
-• Registrar, consultar, actualizar y eliminar productos.
-• Cada producto debe tener: título, autor, categoría, precio, cantidad en stock.
-2. Registro y consulta de ventas
-• Permitir registrar ventas de productos, asociando: cliente, producto vendido,
-cantidad, fecha y descuento (si aplica).
-• Validar stock disponible y actualizarlo automáticamente.
-3. Módulo de reportes
-• Mostrar el top 3 de productos más vendidos.
-• Generar reporte de ventas totales agrupado por autor.
-• Calcular ingreso neto y bruto (con y sin descuento).
-4. Validaciones avanzadas
-• Validar entradas (números positivos, formatos correctos, campos obligatorios).
-• No permitir ventas con stock insuficiente.
-5. Diseño modular con funciones
-• Cada funcionalidad debe estar encapsulada en funciones.
-• Se deben usar funciones con parámetros y retorno.
-• Uso de funciones lambda para cálculos agregados.
-Be a coder
-6. Almacenamiento en estructuras de datos
-• Utilizar diccionarios anidados y listas para almacenar productos y ventas.
-• Agrupaciones y búsquedas deben usar métodos y estructuras eficientes.
-Criterios de Aceptación
-• El sistema debe iniciar con al menos 5 productos pre-cargados.
-• Todas las interacciones deben estar en inglés, incluidos comentarios, mensajes y
-documentación.
-• Se deben aplicar buenas prácticas de codificación: funciones claras, uso de constantes,
-validaciones.
-• El programa debe correr por consola y ofrecer un menú interactivo.
-• El código debe manejar excepciones sin que el programa se detenga abruptamente.
-Recursos permitidos:
-• Python Docs – Tutorial de Estructuras de Datos
-Guía oficial y completa sobre listas, tuplas, diccionarios, comprensiones y manejo de
-colecciones.
-https://docs.python.org/3/tutorial/datastructures.html
-• Real Python – “Python Dictionaries 101: All You Need to Know”
-Artículo paso a paso (con ejemplos) sobre creación, actualización, búsqueda y uso
-avanzado de diccionarios, clave para tu módulo de inventario y ventas.
-https://realpython.com/python-dicts/
-• Programiz – Manejo de Excepciones en Python
-Introducción práctica a try-except, manejo de errores y creación de excepciones
-personalizadas para validar entradas y evitar que el programa se detenga abruptamente.
-https://www.programiz.com/python-programming/exception-handling
-• W3Schools – Funciones Lambda en Python
-Explicaciones y ejercicios rápidos sobre funciones anónimas (lambda), útiles para
-cálculos agregados y reportes dinámicos.
-https://www.w3schools.com/python/python_lambda.asp
-• GitHub – “python-cheatsheet” (gto76)
-Cheatsheet interactiva con patrones, snippets y mejores prácticas de Python. Excelente
-para repasar sintaxis, manejo de entradas/salidas y estructuras de control antes de la
-entrega.
-https://github.com/gto76/python-cheatsheet
+>>>>>Comprehensive Inventory and Sales Management System with Dynamic Reports<<<<<<
+
+This project will showcase all the information and the code process developed to address the need for a robust system for a national bookstore. This console aims to provide not only book information but also generate detailed reports, manage inventory based on sales, group statistics by author, and evaluate inventory performance based on sales.
+
+To achieve this, we created a console with a main menu offering the following options:
+
+1. Inventory Management
+
+2. Sales Registration and Inquiry
+
+3. Reporting Module
+
+4. Exit
+
+Each of these options contains additional details or functionalities tailored to the specific requirements.
+
+1. Inventory Management: Selecting this option redirects you to a submenu that allows you to perform the following activities:
+
+1. Book Record
+
+2. Consult Library
+
+3. Update book's information
+
+4. Delete book
+
+5. Exit
+
+Within the Book's record, you can add new information to the inventory, including new products/books with specific details such as title, author, category, price, and quantity in stock.
+
+In Consult library, using a unique ID generated when you enter the product in the previous option, this product can then be searched in the archive's history.
+
+There is also the option to update the data. You can do this without having to delete the entire information. If you only want to update one item, you can do so without any restrictions and without losing the previous data.
+
+Finally, there is the option to delete. This will completely erase the book's information, leaving no record.
+
+Within this menu, you also have the option to return to the main menu.
+
+2. Sales Registration and Inquiry: Within this option in the main menu, the operator can enter a sale. This entry will request information such as customer, product sold, quantity, date, and discount. All this information will be saved in a database, which will be accessible even if the console is closed.
+
+3. Reporting Module: Here, there will be access to all the details regarding existing books, sales made, the top 3 best-selling products, among others. It aims to display all possible statistics.
+
+Finally, there is the option to exit the console.
+
+Throughout the project, dictionaries and libraries such as `os` and `time` were used. Functions were also used. The program was designed to run via the console and an interactive menu, and it was also designed to avoid abrupt closures that would generate exceptions.
+
+Project Status:
+
+It is currently in the development and continuous improvement phase.
